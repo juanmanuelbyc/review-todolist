@@ -5,7 +5,6 @@ let descriptions;
 
 export default class Tasks {
   tasks = [];
-  
   constructor() {
     this.getFromLocalStorage();
   }
@@ -17,7 +16,7 @@ export default class Tasks {
   };
 
   updateTasks = () => {
-    let temp;
+    const temp;
     this.getFromLocalStorage();
     temp = this.tasks;
     container.innerHTML = '';
@@ -41,7 +40,6 @@ export default class Tasks {
         checkbox.nextSibling.nextSibling.classList.add('marked');
         checkbox.nextSibling.nextSibling.nextSibling.nextSibling.classList.add('marked');
       }
-    
       checkbox.addEventListener('change', () => {
         if (checkbox.checked === true) {
           checkbox.nextSibling.nextSibling.classList.add('marked');
