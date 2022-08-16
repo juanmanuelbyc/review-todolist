@@ -16,9 +16,8 @@ export default class Tasks {
   };
 
   updateTasks = () => {
-    const temp;
     this.getFromLocalStorage();
-    temp = this.tasks;
+    const temp = this.tasks;
     container.innerHTML = '';
     this.tasks.forEach((task, i) => {
       task.index = i + 1;
