@@ -1,47 +1,56 @@
-## How to solve this challenge?
+# To Do List
 
-1. Read the "Challenge description" below.
-2. Make changes to the [challenge.js](./challenge.js) file.
-3. Commit your changes.
-4. Wait for the result of the "GitHub Classroom Workflow" action. If it is green - congratulations, you solved this challenge! If not - try again!
-5. *You can watch an example of how to solve a challenge in the video linked in the theoretical lesson preceding this challenge.*
+to Do List is a basic website that allows users to add/remove, update status(complete/uncomplete) and reorganize tasks from a list. witch is done by using webpack, webpack server.
 
+## Built With
 
-## Challenge description
+- HTML
+- CSS
+- JS
 
-### Balanced Brackets
+## Live Demo
 
-There are 3 kinds of Brackets: [] {} (). Given a String  of characters, check if all the brackets in the String are Balanced. A  string is balanced if all the start and end brackets are in a correct  order so they match each other.
-Here are some balanced Strings:
+No live version yet
 
-- {}
-- (hello)[world]
-- [({}{}{})([])]
+## Getting Started
 
-Here are some Unbalanced ones:
+To get a local copy up and running follow these simple example steps.
 
-- (hello - no ending )
-- ([)] - The [ is improperly enclosed in the ().
-- )( - There's an ending ) without a ( before it.
+### Prerequisites
 
-Return true if a line is balanced and false otherwise.
+- Browser
+- A version control like git
+- A text editor
 
-#### Examples
+### Setup
 
-The following are 3 test cases:
+- First clone or download using the link [https://github.com/juanmanuelbyc/to-do-list](https://github.com/juanmanuelbyc/to-do-list).
+- Navigate to the folder using cd to-do-list or GUI.
+- Open index.html in your favorite browser.
+- Use your favorite text editor to make a changes on the page, add other content if necessary.
 
-```js
-console.log(balanced_brackets?('(hello)[world]'))
-// => true
+## Authors
 
-console.log(balanced_brackets?('([)]'))
-// => false
+👤 Juan Diaz (Juan Diaz)
 
-console.log(balanced_brackets?('[({}{}{})([])]'))
-// => true
-```
+- GitHub: [@juanmanuelbyc](https://github.com/juanmanuelbyc)
+- Twitter: [@twitter](https://twitter.com/juanmanueldiar)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-díaz-5281b3111/)
 
+## 🤝 Contributing
 
-### Troubleshooting
+Contributions, issues, and feature requests are welcome!
 
-If you cannot see any auto-grading workflows on the [Actions](../../actions) page, learn how to fix it in [this repo](https://github.com/microverse-students/autograding-troubles-js/blob/main/README.md).
+Feel free to check the [issues page](https://github.com/juanmanuelbyc/to-do-list/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse Curriculum
+
+## 📝 License
+
+No licenses required
