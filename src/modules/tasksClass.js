@@ -5,7 +5,7 @@ let descriptions;
 
 export default class Tasks {
   tasks = [];
-  
+
   constructor() {
     this.getFromLocalStorage();
   }
